@@ -13,7 +13,50 @@ knitr::opts_chunk$set(echo = FALSE)
 
 I'm from Cape Town, one of the world's sunnier places, and I have a PhD in pharmacology (my thesis was on the population pharmacokinetics of rifampicin, isoniazid, and pyrazinamide, key drugs in the treatment of tuberculosis) from the [University of Cape Town](https://www.uct.ac.za) - I also collected a BSc in microbiology and biochemistry, and an MSc in the pharmacoeconomics of malaria while I was there (as you do). 
 
-Since then, I've moved around a bit. I joined [Uppsala University](https://www.uu.se) as a postdoctoral researcher in 2004, where I had the good fortune to work in the storied Department of Pharmaceutical Biosciences, one of the world's foremost centers of pharmacometrics, and then to Switzerland in 2006, to join [Novartis](https://www.novartis.com). In 2010, I joined Exprimo, a pharmacometrics consulting company of some renown. Sadly, it was acquired by a multinational soon after, was run into the ground; everyone left, and today, it no longer exists. Some colleagues and I set up shop for ourselves in 2015, when we formed [Occams](https://www.occams.com). My family and I moved to Germany in 2019, where we remain today.
+```{r, layout="l-screen-inset shaded"}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=18.461, lat=-33.942, popup="University of Cape Town")
+```
+
+Since then, I've moved around a bit. I joined [Uppsala University](https://www.uu.se) as a postdoctoral researcher in 2004, where I had the good fortune to work in the storied Department of Pharmaceutical Biosciences, one of the world's foremost centers of pharmacometrics... 
+
+```{r, layout="l-screen-inset shaded"}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=17.632, lat=59.842, popup="BMC")
+```
+
+... and then to Switzerland in 2006, to join [Novartis](https://www.novartis.com). 
+
+```{r, layout="l-screen-inset shaded"}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=7.581, lat=47.572, popup="Novartis")
+```
+
+
+In 2010, I joined Exprimo, a pharmacometrics consulting company of some renown. Sadly, it was acquired by a multinational soon after, was run into the ground; everyone left, and today, it no longer exists. 
+
+```{r, layout="l-screen-inset shaded"}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=9.451, lat=47.182, popup="Grabs")
+```
+
+Some colleagues and I set up shop for ourselves in 2015, when we formed [Occams](https://www.occams.com). My family and I moved to Germany in 2019, where we remain today.
+
+```{r, layout="l-screen-inset shaded"}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=7.884, lat=51.550, popup="Büderich")
+```
+
 
 I'm a pharmacometrics consultant in my day job. I build pharmacokinetic (PK), pharmacodynamic (PD) and PK-PD models for drugs, based on clinical trial data; these models can be used to explain and predict changes in drug concentration over time, given a specific dose, and how those concentrations relate to the drug's effects (both positive and negative). I've worked on drugs in infectious diseases, oncology, diabetes, and respiratory disease, amongst others - you can find a more detailed record of what I've been up to [here](https://scholar.google.com/citations?user=p8gEvroAAAAJ&hl=en).
 
