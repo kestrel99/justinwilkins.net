@@ -86,29 +86,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Justin Wilkins: About this blog</title>
+  <title>Numetropolis: About this blog</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the blog"/>
+  <meta property="description" itemprop="description" content="This is a site for expressing my random thoughts, opinions, and the odd tutorial about R&#10;or pharmacometrics."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Justin Wilkins: About this blog"/>
+  <meta property="og:title" content="Numetropolis: About this blog"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the blog"/>
+  <meta property="og:description" content="This is a site for expressing my random thoughts, opinions, and the odd tutorial about R&#10;or pharmacometrics."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Justin Wilkins"/>
+  <meta property="og:site_name" content="Numetropolis"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Justin Wilkins: About this blog"/>
-  <meta property="twitter:description" content="Some additional details about the blog"/>
+  <meta property="twitter:title" content="Numetropolis: About this blog"/>
+  <meta property="twitter:description" content="This is a site for expressing my random thoughts, opinions, and the odd tutorial about R&#10;or pharmacometrics."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["Some additional details about the blog"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["This is a site for expressing my random thoughts, opinions, and the odd tutorial about R\nor pharmacometrics."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2032,6 +2032,340 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">/* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+  @import url('https://fonts.googleapis.com/css2?family=Cardo');
+  @import url('https://fonts.googleapis.com/css2?family=Alata');
+  @import url('https://fonts.googleapis.com/css2?family=Lato');
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.075rem;                   /* edited */
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --heading-color:   rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    'Alata', sans-serif;        /* edited */
+    --mono-font:       monospace;
+    --body-font:       'Lato', serif;             /* edited */
+    --navbar-font:     'Alata', sans-serif;        /* edited */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       1.075rem;                   /* edited */
+    --text-color:      rgb(0, 0, 0);               /* edited */
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       #000;                     /* edited */
+    --text-size:        15px;
+    --hover-color:      #009900;                  /* edited */
+    --bkgd-color:       #e6ffe6;                     /* edited */
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+
+  .categories li > a:hover {
+      color: #009900;
+      border-bottom: 1px #009900;
+  }
+
+  p a:hover  {
+      color: #009900;
+  }
+
+  /* Change appearance of headers */
+  h1, h2, h3, h4, h5 {
+      font-weight: 700;
+  }
+
+  /* Use specific font in the body of the text */
+  html, body, p {
+      font-weight: 200;
+      /*line-height: 1.3rem; */
+      /*font-style: normal;*/
+  }
+
+  ul > li::marker {
+      font-weight: 700;
+      font-size: 1.125em;
+  }</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -2053,7 +2387,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this blog","description":"Some additional details about the blog","authors":[]}
+{"title":"About this blog","description":"This is a site for expressing my random thoughts, opinions, and the odd tutorial about R\nor pharmacometrics.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2061,7 +2395,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Justin Wilkins</a>
+<a href="index.html" class="title">Numetropolis</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
@@ -2079,11 +2413,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>About this blog</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the blog</p></p>
+<p><p>This is a site for expressing my random thoughts, opinions, and the odd tutorial about R or pharmacometrics.</p></p>
 </div>
 
 
 <div class="d-article">
+<h1 id="a-bit-about-me">A bit about me</h1>
+<p>I’m from Cape Town, one of the world’s sunnier places, and I have a PhD in pharmacology (my thesis was on the population pharmacokinetics of rifampicin, isoniazid, and pyrazinamide, key drugs in the treatment of tuberculosis) from the <a href="https://www.uct.ac.za">University of Cape Town</a> - I also collected a BSc in microbiology and biochemistry, and an MSc in the pharmacoeconomics of malaria while I was there (as you do).</p>
+<p>Since then, I’ve moved around a bit. I joined <a href="https://www.uu.se">Uppsala University</a> as a postdoctoral researcher in 2004, where I had the good fortune to work in the storied Department of Pharmaceutical Biosciences, one of the world’s foremost centers of pharmacometrics, and then to Switzerland in 2006, to join <a href="https://www.novartis.com">Novartis</a>. In 2010, I joined Exprimo, a pharmacometrics consulting company of some renown. Sadly, it was acquired by a multinational soon after, was run into the ground; everyone left, and today, it no longer exists. Some colleagues and I set up shop for ourselves in 2015, when we formed <a href="https://www.occams.com">Occams</a>. My family and I moved to Germany in 2019, where we remain today.</p>
+<p>I’m a pharmacometrics consultant in my day job. I build pharmacokinetic (PK), pharmacodynamic (PD) and PK-PD models for drugs, based on clinical trial data; these models can be used to explain and predict changes in drug concentration over time, given a specific dose, and how those concentrations relate to the drug’s effects (both positive and negative). I’ve worked on drugs in infectious diseases, oncology, diabetes, and respiratory disease, amongst others - you can find a more detailed record of what I’ve been up to <a href="https://scholar.google.com/citations?user=p8gEvroAAAAJ&amp;hl=en">here</a>.</p>
+<p>I try to keep active in the greater pharmacometrics community. I was elected to the Board of Directors of the <a href="https://www.go-isop.org">International Society of Pharmacometrics (ISoP)</a> in 2016, and served as its President in 2019. I’m currently Past President (a post from which I am occasionally called upon to dispense supposedly sage wisdom), and my term ends at the end of the year (seriously, though, it’s a period I’m extremely proud of - I made a lot of friends, and we got a lot done). I’m also a part of the logistics team at <a href="https://www.page-meeting.org">PAGE</a>, and have been on the Scientific Organizing Committee since 2013. I was the Novartis representative on the <a href="https://www.ddmore.foundation/">DDMoRe</a> project, served briefly as its Scientific Director, and co-led the team that developed the <a href="https://www.ddmore.foundation/thoughtflow/">Thoughtflow</a> concept. The success of DDMoRe is up for debate, but I’m firmly of the opinion that it had lasting impact. If only more people agreed.</p>
+<p>As well as being a full-time pharmacometrics consultant in my day job, I dabble occasionally in tool development and I’m a big fan of reproducibility in research. <a href="https://github.com/kestrel99/Census">Census</a> was my attempt at a run management tool for NONMEM, but it has fallen into disuse over the past few years (moral of the story - if you want to build a community around an open source tool, don’t develop it in Object Pascal). I helped port <a href="https://uupharmacometrics.github.io/xpose4/reference/xpose4-package.html">xpose4</a> from S-PLUS to R while at Uppsala, I maintain the <a href="https://github.com/kestrel99/pmxTools">pmxTools</a> package for R, and I’m on the <a href="https://nlmixrdevelopment.github.io/nlmixr/">nlmixr</a> development team (everyone should use nlmixr, it’s great).</p>
+<p>I’m on <a href="https://github.com/kestrel99">GitHub</a>. On social media, I can be found on <a href="https://www.twitter.com/justinwilkins">Twitter</a> (lately, earnestly debating COVID-19 vaccines and interventions with people have no interest in being earnestly debated, holding forth on the sorry state of UK politics, and being opinionated about popular culture) and <a href="https://www.linkedin.com/in/justinjwilkins/">LinkedIn</a> (where I mostly just lurk).</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

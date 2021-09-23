@@ -1,8 +1,9 @@
-name: "justinwilkins.net"
-title: "Justin Wilkins"
+name: "Numetropolis"
+title: "Numetropolis"
 description: |
-  Justin Wilkins
+  Numetropolis
 output_dir: "_site"
+theme: theme.css
 navbar:
   right:
     - text: "Home"

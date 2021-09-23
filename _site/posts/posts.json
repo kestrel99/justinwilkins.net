@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Justin Wilkins",
-    "description": "Welcome to our new blog, Justin Wilkins. We hope you enjoy \nreading what we have to say!",
+    "title": "Welcome to Numetropolis",
+    "description": "Welcome to Numetropolis, the blog for R, pharmacometrics, and parts in between.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Justin Wilkins",
+        "url": "https://www.occams.com"
       }
     ],
     "date": "2021-09-23",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-09-23T11:38:25+02:00",
+    "last_modified": "2021-09-23T13:19:03+02:00",
     "input_file": {}
   }
 ]

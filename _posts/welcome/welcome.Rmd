@@ -1,13 +1,12 @@
 ---
-title: "Welcome to Justin Wilkins"
+title: "Welcome to Numetropolis"
 description: |
-  Welcome to our new blog, Justin Wilkins. We hope you enjoy 
-  reading what we have to say!
+  Welcome to Numetropolis, the blog for R, pharmacometrics, and parts in between. 
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Justin Wilkins
+    url: https://www.occams.com
+    affiliation: Occams
+    affiliation_url: https://www.occams.com
 date: 09-23-2021
 output:
   distill::distill_article:
