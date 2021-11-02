@@ -1,7 +1,7 @@
-name: "Numetropolis"
-title: "Justin Wilkins"
+name: "Numetrics"
+title: "Numetrics"
 description: |
-  Numetropolis
+  Numetrics
 output_dir: "_site"
 base_url: https://justinwilkins.net
 repository_url: https://github.com/kestrel99/justinwilkins.net/
