@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Numetropolis",
-    "description": "Welcome to Numetropolis, the blog for R, pharmacometrics, and parts in between.",
+    "title": "Welcome to Numetrics",
+    "description": "Welcome to Numetrics, the blog for R, pharmacometrics, and parts in between.",
     "author": [
       {
         "name": "Justin Wilkins",
@@ -11,9 +11,9 @@
     ],
     "date": "2021-09-23",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-09-23T13:19:03+02:00",
-    "input_file": {}
+    "contents": "\r\n\r\n\r\n\r\nHello, and welcome to Numetrics.\r\nThis is going to be a blog of sorts, and it’s going to be focused (mostly) on some of the techier corners of pharmacometrics. What exactly? I don’t know. I’m on the development team of nlmixr, so you’re going to be hearing about that, I expect, and it’s a fair bet there’s going to be quite a bit of R, and perhaps some NONMEM if you’re really unlucky. I’m a fan of reproducibility, literate programming, ways to present data, and doing things more efficiently. So, a bit of tech, and a bit of gloss. Possibly a bit about pharmacometrics in general.\r\nPosts are going to be irregular. As I write this, we’re still neck deep in the global COVID-19 pandemic, and I’m a consultant, so I’m pretty much permanently slammed. But hey, stay tuned!\r\n(In case you were wondering, the picture is an aerial view of the teeming metropolis of Werl, Germany, home since January 2019. It’s an old Hanseatic League city with a charming Wallfahrtsbasilika, which was and still is popular with pilgrims, and a stop on the Hellweg. We like it.)\r\n\r\n\r\n\r\n",
+    "preview": "posts/welcome/../../assets/werl.jpg",
+    "last_modified": "2021-11-02T09:23:44+01:00",
+    "input_file": "welcome.knit.md"
   }
 ]
